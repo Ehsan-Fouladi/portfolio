@@ -1,7 +1,6 @@
 import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef } from "react";
-import PropTypes from "prop-types";
 import appointmentReservation from "@/assets/images/appointment-reservation.png";
 import deltaGroup from "@/assets/images/deltagroup.png";
 import SocialMedia from "@/assets/images/social-media.png";
@@ -213,17 +212,3 @@ function Card({
     </div>
   );
 }
-
-// Add PropTypes validation
-Card.propTypes = {
-  i: PropTypes.number.isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-  color: PropTypes.string.isRequired,
-  progress: PropTypes.object.isRequired,
-  range: PropTypes.array.isRequired,
-  targetScale: PropTypes.number.isRequired,
-  githubLink: PropTypes.string.isRequired,
-  liveLink: PropTypes.string.isRequired,
-};
