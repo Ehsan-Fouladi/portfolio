@@ -3,7 +3,6 @@ import {
   FaHome,
   FaLaptopCode,
   FaBriefcase,
-  FaGraduationCap,
   FaCode,
   FaEnvelope,
   FaBars,
@@ -28,8 +27,7 @@ export default function Header() {
   const navLinks = [
     { id: "home", icon: FaHome, text: "خانه", path: "/" },
     { id: "skills", icon: FaCode, text: "مهارت ها", path: "/skills" },
-    { id: "experience", icon: FaBriefcase, text: "تجربه", path: "/experience" },
-    { id: "education", icon: FaGraduationCap, text: "آموزش", path: "/education" },
+    { id: "experience", icon: FaBriefcase, text: "تجربه ها", path: "/experience" },
     { id: "projects", icon: FaLaptopCode, text: "پروژه ها", path: "/projects" },
     { id: "contact", icon: FaEnvelope, text: "تماس با من", path: "/contact" },
   ];
