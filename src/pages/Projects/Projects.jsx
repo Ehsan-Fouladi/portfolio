@@ -71,8 +71,8 @@ export default function Projects() {
 
   return (
     <ReactLenis root>
-      <main className="bg-black" ref={container}>
-        <section className="text-white w-full bg-slate-950">
+      <main ref={container}>
+        <section className="text-white w-full">
           {projects.map((project, i) => {
             const targetScale = 1 - (projects.length - i) * 0.05;
             return (
@@ -115,7 +115,7 @@ function Card({
   return (
     <div
       ref={container}
-      className="h-screen flex items-center justify-center sticky top-0"
+      className="h-dvh flex items-center justify-center sticky top-14 md:top-0"
     >
       <motion.div
         style={{

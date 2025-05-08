@@ -2,33 +2,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
 import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
-import {
-  FaReact,
-  FaVuejs,
-  FaNodeJs,
-  FaPython,
-  FaDocker,
-  FaGitAlt,
-  FaLinux,
-  FaFigma,
-  FaAws,
-} from "react-icons/fa";
-import {
-  SiNuxtdotjs,
-  SiTypescript,
-  SiTailwindcss,
-  SiBootstrap,
-  SiPostgresql,
-  SiMongodb,
-  SiMysql,
-  SiDjango,
-  SiJest,
-  SiVitest,
-  SiWebpack,
-  SiSupabase,
-  SiVercel,
-  SiVite,
-} from "react-icons/si";
+import { FaReact, FaVuejs, FaNodeJs, FaPython, FaDocker, FaGitAlt, FaLinux, FaFigma, FaAws } from "react-icons/fa";
+import { SiNuxtdotjs, SiTypescript, SiTailwindcss, SiBootstrap, SiPostgresql, SiMongodb, SiMysql, SiDjango, SiJest, SiVitest, SiWebpack, SiSupabase, SiVercel, SiVite } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
 import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
@@ -146,7 +121,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <main className="pt-15 lg:pt-0 text-white min-h-screen bg-[#04081A] relative">
+    <main className="pt-15 lg:pt-0 text-white relative">
       {/* Grid Background */}
       <div className="absolute inset-0 bg-grid-pattern opacity-20 pointer-events-none"></div>
 
