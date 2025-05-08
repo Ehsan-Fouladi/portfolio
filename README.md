@@ -15,16 +15,10 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 
 ---
 
-## Demo
-
-![Portfolio Demo](https://i.postimg.cc/Dfr5jCQp/Screenshot-2025-01-02-120901.png)
-
----
-
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+[**Portfolio Live Preview**](https://efouladi.ir)
 ---
 ### 🎯 Project Structure
 ```bash
@@ -36,14 +30,12 @@ portfolio/
 │   │   ├── css/
 │   │   │   ├── index.css
 │   │   │   └── tomorrow.css
-│   │   └── images/
 │   ├── components/
 │   │   ├── ui/
 │   │   │   ├── Reusable Components/
 │   │   │   │   ├── badge.jsx
 │   │   │   │   ├── button.jsx
 │   │   │   │   ├── card.jsx
-│   │   │   │   ├── EducationLoader.jsx
 │   │   │   │   ├── evervault-card.jsx
 │   │   │   │   ├── flip-words.jsx
 │   │   │   │   ├── icon-cloud.jsx
@@ -54,8 +46,6 @@ portfolio/
 │   │   │   ├── Main Components/
 │   │   │   │   ├── AnimatedGrid.jsx
 │   │   │   │   ├── Contact.jsx
-│   │   │   │   ├── Education.jsx
-│   │   │   │   ├── enhanced-portfolio-card.jsx
 │   │   │   │   ├── Experience.jsx
 │   │   │   │   ├── global.jsx
 │   │   │   │   ├── Header.jsx
@@ -79,17 +69,14 @@ portfolio/
 │   │   │   └── Hero.jsx
 │   │   ├── Projects/
 │   │   │   ├── Projects.jsx
-│   │   │   └── testProjects.jsx
 │   │   └── Skills/
 │   │       └── Skills.jsx
 │   ├── App.jsx
 │   └── main.jsx
 ├── Configuration Files/
-│   ├── .eslintrc.js
 │   ├── .gitignore
 │   ├── components.json
 │   ├── index.html
-│   ├── jsconfig.json
 │   ├── package-lock.json
 │   ├── package.json
 │   ├── postcss.config.js
@@ -108,7 +95,6 @@ The portfolio website consists of the following sections:
 - **Home**: Introduction and a brief overview.
 - **Skills**: A detailed list of my technical skills.
 - **Experience**: My professional journey and work experience.
-- **Education**: Academic background and certifications.
 - **Projects**: A showcase of the projects I've worked on.
 - **Contact**: Information on how to reach out to me.
 
@@ -119,7 +105,7 @@ The portfolio website consists of the following sections:
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
 - **Icons:** React Icons
-- **Deployment:** Vercel
+- **Deployment:** Vercel && Github
 
 ---
 
@@ -151,7 +137,7 @@ You will need to download **Git** and **Node** to run this project.
 2. After forking, open your terminal and run the following commands to clone the repo:
 
   ```bash
-  git clone https://github.com/seraprogrammer/portfolio.git
+  git clone https://github.com/Ehsan-Fouladi/portfolio.git
   ```
 Navigate to the Project Directory 📂
 Once the repository is cloned, change your directory to the project folder:
@@ -189,5 +175,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Nazmul Hossain </div>
-
+<div align="center"> Made with ❤️ by Ehsan Fouladi </div>
