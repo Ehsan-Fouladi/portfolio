@@ -25,9 +25,12 @@ Check out the live preview of the portfolio website here:
 portfolio/
 ├── node_modules/
 ├── public/
+│   ├── robots.txt
+│   ├── sitemap.xml
 ├── src/
 │   ├── assets/
 │   │   ├── css/
+│   │   │   ├── Header.css
 │   │   │   ├── index.css
 │   │   │   └── tomorrow.css
 │   ├── components/
@@ -36,15 +39,12 @@ portfolio/
 │   │   │   │   ├── badge.jsx
 │   │   │   │   ├── button.jsx
 │   │   │   │   ├── card.jsx
-│   │   │   │   ├── evervault-card.jsx
 │   │   │   │   ├── flip-words.jsx
 │   │   │   │   ├── icon-cloud.jsx
 │   │   │   │   ├── meteors.jsx
 │   │   │   │   ├── sparkles-text.jsx
-│   │   │   │   └── tooltip.jsx
 │   │   │   │
 │   │   │   ├── Main Components/
-│   │   │   │   ├── AnimatedGrid.jsx
 │   │   │   │   ├── Contact.jsx
 │   │   │   │   ├── Experience.jsx
 │   │   │   │   ├── global.jsx
