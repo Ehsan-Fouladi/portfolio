@@ -42,8 +42,7 @@ export default function Header() {
                 <Link to="/" className="text-white font-bold">Portfolio</Link>
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="text-white p-2"
-                >
+                    className="text-white p-2" title="menu">
                   <FaBars />
                 </button>
               </div>
