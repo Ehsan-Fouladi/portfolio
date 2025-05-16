@@ -130,13 +130,22 @@ const profile = {
 
               {/* Name section */}
               <div className="relative mb-6 sm:mb-8">
+                {/*<h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">*/}
+                {/*  <SparklesText text="سلام" />*/}
+                {/*  <span className="relative inline-block">*/}
+                {/*    من*/}
+                {/*    <span className="typing-effect gradient-text">*/}
+                {/*      {" "}*/}
+                {/*      احسان فولادی*/}
+                {/*    </span>*/}
+                {/*  </span>*/}
+                {/*</h1>*/}
                 <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight">
-                  <SparklesText text="سلام" />
-                  <span className="relative inline-block">
-                    من
+                  <SparklesText text="احسان فولادی" />
+                  <span className="relative inline-block pt-3">
                     <span className="typing-effect gradient-text">
                       {" "}
-                      احسان فولادی
+                      فرانت اند دولوپر
                     </span>
                   </span>
                 </h1>
