@@ -5,7 +5,7 @@ import appointmentReservation from "@/assets/images/appointment-reservation.png"
 import deltaGroup from "@/assets/images/deltagroup.png";
 import SocialMedia from "@/assets/images/social-media.png";
 import cv from "@/assets/images/cv.png";
-import shop from "@/assets/images/Shop.jpeg";
+import shop from "@/assets/images/Shop.png";
 import blog from "@/assets/images/stand-blog.png";
 
 const projects = [

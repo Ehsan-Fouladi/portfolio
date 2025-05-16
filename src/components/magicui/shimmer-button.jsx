@@ -16,7 +16,7 @@ export const ShimmerButton = React.forwardRef((
   ref,
 ) => {
   return (
-    <button
+    <a href="/EhsanFouladi.pdf" target="_blank"
       style={
         {
           "--spread": "90deg",
@@ -66,7 +66,7 @@ export const ShimmerButton = React.forwardRef((
         className={cn(
           "absolute -z-20 [background:var(--bg)] [border-radius:var(--radius)] [inset:var(--cut)]"
         )} />
-    </button>
+    </a>
   );
 });
 

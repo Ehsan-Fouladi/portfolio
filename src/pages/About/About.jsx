@@ -1,4 +1,4 @@
-import HeroImg from "@/assets/images/hero.jpg";
+import HeroImg from "@/assets/images/hero.png";
 
 export default function About() {
   return (
@@ -22,10 +22,10 @@ export default function About() {
             <div className="relative space-y-4">
               <p className="text-white break-words text-justify leading-relaxed">
                 توسعه دهنده وب در طراحی و پیاده سازی وب سایت ها و برنامه های وب آشنا به تکنولوژی های مدرن مانند HTML ، CSS ، JavaScript و فریم ورک های مدرن توانایی حل مشکلات پیچیده و کار در تیم های چند منظوره و همچنین تجربه در بهینه سازی عملکرد و سئو دارای روحیه یادگیری مداوم و اشتیاق برای ارائه راه حل های نوآورانه برای بهبود تجربه کاربر آماده برای چالش های جدید و همکاری در پروژه ها است.
-                <span className="font-bold text-white">
-                  همچنین طراحی سایت شرکتی دانش بنیان
-                </span>
               </p>
+              <span className="font-bold text-white">
+                همچنین طراحی سایت شرکتی دانش بنیان
+              </span>
               <div className="pt-6">
                 <blockquote className="border-r-4 border-gray-300 pr-4 rounded-lg">
                   <p className="text-white break-words text-justify leading-relaxed">

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Vazirmatn', sans-serif;
+  font-optical-sizing: auto;
+  scroll-behavior: smooth;
+}
+
 @keyframes float-slow {
   0%,
   100% {
