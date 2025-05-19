@@ -8,6 +8,7 @@ import {
   FaBars,
 } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "@/assets/images/logo.png";
 
 export default function Header() {
   const location = useLocation();
@@ -39,12 +40,14 @@ export default function Header() {
             <nav className="bg-gray-900/90 backdrop-blur-md md:rounded-full px-4 md:px-6 py-2.5">
               {/* Mobile Menu Button */}
               <div className="flex justify-between items-center md:hidden px-2">
-                <Link to="/" className="text-white font-bold">Portfolio</Link>
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                     className="text-white p-2" title="menu">
                   <FaBars />
                 </button>
+                <Link to="/" className="size-[12%]">
+                  <img className="object-contain rounded-full" src={Logo} alt="logo" draggable="false" loading="lazy"/>
+                </Link>
               </div>
 
               {/* Navigation Links */}
