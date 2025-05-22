@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { Code2, Database, Layout, Cpu, Cloud } from "lucide-react";
 import { FaReact, FaVuejs, FaNodeJs, FaPython, FaDocker, FaGitAlt, FaLinux, FaFigma, FaAws } from "react-icons/fa";
 import { SiNuxtdotjs, SiTypescript, SiTailwindcss, SiBootstrap, SiPostgresql, SiMongodb, SiMysql, SiDjango, SiJest, SiVitest, SiWebpack, SiSupabase, SiVercel, SiVite } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
@@ -50,7 +50,7 @@ const SkillsSection = () => {
       skills: [
         {name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" />},
         {name: "Vue", icon: <FaVuejs className="w-4 h-4 text-[#38B2AC]" />},
-        {name: "Next.js", icon: <SiNuxtdotjs className="w-4 h-4 text-[#38B2AC]" />},
+        {name: "Nuxt.js", icon: <SiNuxtdotjs className="w-4 h-4 text-[#38B2AC]" />},
         {name: "TypeScript", icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />},
         {name: "Tailwind CSS", icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" />},
         {name: "Bootstrap", icon: <SiBootstrap className="w-4 h-4 text-purple-600" />},
@@ -106,16 +106,6 @@ const SkillsSection = () => {
         {name: "Supabase", icon: <SiSupabase className="w-4 h-4 text-[#38B2AC]" />},
         {name: "Vercel", icon: <SiVercel className="w-4 h-4 text-white" />},
         {name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" />},
-      ],
-    },
-    {
-      icon: Paintbrush,
-      title: "موشن گرافیک",
-      color: "text-yellow-400",
-      skills: [
-        {name: "UI Animation", icon: <MdAnimation className="w-4 h-4 text-[#FF4081]" />},
-        {name: "SVG Animation", icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />},
-        {name: "Motion Graphics", icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />},
       ],
     },
   ];

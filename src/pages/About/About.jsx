@@ -3,7 +3,7 @@ import HeroImg from "@/assets/images/hero.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
+      <section id="about" className="py-16 md:py-32  text-white">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <div className="grid gap-6 sm:grid-cols-2 items-center justify-center md:gap-12">
             <div className="relative mb-6 sm:mb-0">
