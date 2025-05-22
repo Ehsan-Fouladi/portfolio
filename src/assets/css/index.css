@@ -6,6 +6,7 @@ body {
   font-family: 'Vazirmatn', sans-serif;
   font-optical-sizing: auto;
   scroll-behavior: smooth;
+  background-color: #04081A;
 }
 
 @keyframes float-slow {
