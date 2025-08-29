@@ -3,6 +3,7 @@ import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 import appointmentReservation from "@/assets/images/appointment-reservation.png";
 import deltaGroup from "@/assets/images/deltagroup.png";
+import gamma360 from "@/assets/images/gamma360.png";
 import SocialMedia from "@/assets/images/social-media.png";
 import cv from "@/assets/images/cv.png";
 import shop from "@/assets/images/Shop.png";
@@ -25,6 +26,14 @@ const projects = [
     link: deltaGroup,
     color: "#00ffcd",
     liveLink: "https://deltagroup.ir",
+  },
+  {
+    title: "سایت خدماتی گاما 360",
+    description: "در این پروژه، رابط کاربری وب‌سایت گاما را با تمرکز بر حوزه تخصصی اتوماسیون صنعتی هوشمند طراحی کردم. چالش اصلی، ارائه مفاهیم فنی پیچیده در قالبی مدرن، ساده و کاربرپسند بود. با توجه به فعالیت بین‌المللی شرکت، سایت به صورت کاملاً دوزبانه (فارسی و انگلیسی) طراحی شد که نیازمند بهینه‌سازی دقیق برای هر دو زبان بود. نتیجه نهایی، یک پلتفرم با هویت بصری منسجم و طراحی واکنش‌گرا (Responsive) است که تخصص و نوآوری شرکت را به شکلی حرفه‌ای به مخاطبان جهانی معرفی می‌کند.",
+    src: gamma360,
+    link: gamma360,
+    color: "#00ffcd",
+    liveLink: "https://gamma360.ir",
   },
   {
     title: "سایت فیلم و سریال",
